@@ -1,0 +1,15 @@
+# See the documentation for more information:
+# https://packit.dev/docs/configuration/
+
+specfile_path: ../spec/podman.spec.in
+
+# add or remove files that should be synced
+synced_files:
+    - ,,/spec/podman.spec.in
+    - .packit.yaml
+
+# name in upstream package repository/registry (e.g. in PyPI)
+upstream_package_name: podman
+upstream_project_url: https://github.com/opencontainers/podman
+# downstream (Fedora) RPM package name
+downstream_package_name: podman
